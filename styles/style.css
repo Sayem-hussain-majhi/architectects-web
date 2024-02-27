@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
 
+
+/* shared styles */
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,60 @@
     font-style: normal;
 }
 
+.btn-primary{
+    
+}
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+nav > ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+
+/* banner styles */
+.banner-content{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.banner-description{
+    color: #727272;
+    margin-bottom: 10px;
+}
   
